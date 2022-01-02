@@ -202,8 +202,12 @@ header {
   }
   
   .icon {
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .logo {
+    height: 5rem;
   }
 
   .icon-card {
@@ -261,8 +265,8 @@ header {
 }
 
 .socials li a {
-  padding: 25px;
-  font-size: 45px;
+  padding: 17px;
+  font-size: 35px;
   border-radius: 50%;
   margin: 10px 10px;
 }
@@ -300,4 +304,53 @@ header {
 .fa-spotify {
   color: #1db954;
   background: black;
+}
+
+.job {
+  background-color: #d3d3d3;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.organizations {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.organizations h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+.organization {
+  background-color: #d3d3d3;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+.projects {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.projects h3 {
+  font-size: 500;
+  color: darkgray;
 }
