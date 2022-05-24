@@ -283,11 +283,6 @@ html {
   margin-top: 2.5rem;
 }
 
-.projects h3 {
-  font-size: 500;
-  color: darkgray;
-}
-
 .project {
   background-color: #d3d3d3;
   border-radius: 11px;
