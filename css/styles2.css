@@ -288,5 +288,15 @@ html {
   color: darkgray;
 }
 
+.project {
+  background-color: #d3d3d3;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
 
 
